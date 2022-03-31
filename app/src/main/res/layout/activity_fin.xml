@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinActivity"
+    android:orientation="vertical"
+    android:background="#d9f1ff">
+
+    <Button
+        android:id="@+id/buttonPartage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="partageScore"
+        android:text="@string/sharingScore"
+        android:layout_alignParentTop="true"
+        android:textColor="#2e86de"
+        android:background="@drawable/custom_button"/>
+
+    <WebView
+        android:id="@+id/maWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonPartage"
+        android:layout_above="@+id/buttonQuitter" />
+
+    <Button
+        android:id="@+id/buttonQuitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="quitterApp"
+        android:text="@string/quit"
+        android:layout_alignParentBottom="true"
+        android:textColor="#2e86de"
+        android:background="@drawable/custom_button"/>
+</RelativeLayout>

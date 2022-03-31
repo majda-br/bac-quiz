@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="cheering">Bravo !</string>
+    <string name="incorrectAnswer">Incorrect...</string>
+    <string name="ButtonSaveScore">Enregistrer mon score</string>
+    <string name="ChooseAppMessage">Avec quelle application souhaitez-vous envoyer un message ?</string>
+    <string name="FirstTry">Vous êtes le premier joueur à terminer le quiz. Vous établissez le premier record ! Entrez votre pseudo pour enregistrer ce record :</string>
+    <string name="Nickname">Ton pseudo</string>
+    <string name="sharingScore">Partage ton score avec tes amis !</string>
+    <string name="quit">Quitter</string>
+    <string name="scoreDisplay">Vous avez marqué %1$d points en %2$d questions !</string>
+    <string name="equalScoreText">Le score meilleur établi jusqu\'ici était par %1$s : %2$d / %3$d. Vous égalez ce record %4$s ! Cliquez pour remplacer l\'ancien record :</string>
+    <string name="looserText">Le record est actuellement détenu par %1$s avec %2$d / %3$d. Vous êtes en dessous %4$s...</string>
+    <string name="messageToFriend">Salut ! J\'ai marqué %1$d points en %2$d cartes sur l\'app de quiz !</string>
+    <string name="winnerText">Le meilleur score établi jusqu\'ici était par %1$s : %2$d / %3$d. Vous battez ce record %4$s  ! Cliquez pour remplacer l\'ancien record :</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="cheering">Great job!</string>
+    <string name="incorrectAnswer">Incorrect answer ...</string>
+    <string name="ButtonSaveScore">Save my score</string>
+    <string name="ChooseAppMessage">On which App do you want to send a message ?</string>
+    <string name="FirstTry">You are the first player to complete the quiz. You set the first record! Enter your nickname to record this record:</string>
+    <string name="Nickname">Your nickname</string>
+    <string name="sharingScore">Share your score with friends!</string>
+    <string name="quit">Quit</string>
+    <string name="scoreDisplay">You have scored  %1$d points in %2$d questions!</string>
+    <string name="winnerText" >The best score up until now was set by %1$s : %2$d / %3$d. You beat that record %4$s! Click to replace the old record:</string>
+    <string name="equalScoreText" >The best score up until now was set by %1$s : %2$d / %3$d. You match this record %4$s! Click to replace the old record:</string>
+    <string name="looserText" >The record is currently held by %1$s with %2$d / %3$d.  You are below %4$s ...</string>
+    <string name="messageToFriend" >Hi ! I scored %1$d points in %2$d cards on the quiz app!</string>
+</resources>
